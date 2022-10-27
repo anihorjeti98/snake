@@ -1,1 +1,3 @@
 # snakeGame
+Classic game snake. Basic implementation in pygame. I had to create a class for the snake, draw the snake and add a method to make it grow, move and steer it through user input. Another element of the game was food. I added a new file where I created a food class, drew it and added a function to make it randomly spawn. Next step was to add a method to the snake class to detect when the coordinates of the head are the same as the coordinates of food. That will call the method to grow the snake and respawn the food at a random spot.  I also needed a similar method to detect if the snake hits the bounds or bites its tail (through coordinates). That will prompt the game to end and show a "Game Over" screen.
+
